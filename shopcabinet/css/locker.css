@@ -1,0 +1,55 @@
+.submit {
+	border: 1px solid #5f9ea0;
+}
+
+.pay {
+	margin-top: 6rem;
+	text-align: center;
+}
+
+.pay input {
+	display: inline-block;
+	width: 80%;
+	height: 40px;
+	color: #fff;
+	border: none;
+	background-color: #5f9ea0;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+
+/*单个购买*/
+
+.goods {
+	width: 80%;
+	min-width: 300px;
+	height: auto;
+	padding-top: 10px;
+	line-height: 200px;
+	text-align: center;
+	margin: 50px auto;
+	border: 1px solid #5f9ea0;
+	border-radius: 5px;
+}
+
+.goods img {
+	width: 80%;
+	height: auto;
+}
+
+.goods div {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	margin: 20px auto;
+}
+
+.span1,
+.span2 {
+	color: red;
+}
+
+h3 {
+	text-align: center;
+}

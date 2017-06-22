@@ -1,0 +1,80 @@
+.air {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 32px;
+	color: #0e7b9a;
+}
+
+.withdraw {
+	width: 100%;
+	height: 280px;
+	padding: 6px;
+	overflow: hidden;
+	position: relative;
+	margin: 20px auto;
+}
+
+.withdraw div {
+	width: 100%;
+	text-align: center;
+	float: left;
+	height: auto;
+	position: absolute;
+	color: #fff;
+	transition: all .5s ease-out;
+}
+
+.withdraw .withdraw_left {
+	background-color: #04b00f;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.withdraw .withdraw_right {
+	background-color: #02a9ec;
+	top: 0;
+	left: 80%;
+	z-index: 1;
+}
+
+.withdraw div p {
+	font-size: 12px;
+	width: 80%;
+	margin: 20px auto;
+}
+
+.withdraw div p:nth-child(1) {
+	font-size: 32px;
+	margin: 40px auto;
+}
+
+.withdraw div input {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.withdraw div a {
+	position: absolute;
+	top: 35px;
+	left: 5px;
+	font-size: 12px;
+}
+
+button {
+	display: block;
+	width: 90%;
+	height: 50px;
+	font-size: 16px;
+	color: #0e7b9a;
+	background-color: #fff;
+	border: 1px solid #0e7b9a;
+	border-radius: 4px;
+	margin: 50px auto;
+}

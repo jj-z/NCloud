@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			.air {
+				width: 100%;
+				height: 100px;
+				text-align: center;
+				line-height: 100px;
+				font-size: 32px;
+				color: #0e7b9a;
+			}
+			
+			.withdraw {
+				width: 100%;
+				height: 280px;
+				padding: 6px;
+				overflow: hidden;
+				position: relative;
+				margin: 20px auto;
+			}
+			
+			.withdraw div {
+				width: 100%;
+				text-align: center;
+				float: left;
+				height: auto;
+				position: absolute;
+				color: #fff;
+				transition: all .5s ease-out;
+			}
+			.withdraw .withdraw_left{
+				background-color: #04b00f;
+				top: 0;
+				left: 0;
+				z-index: 0;
+			}
+			.withdraw .withdraw_right{
+				background-color: #02a9ec;
+				top: 0;
+				left: 80%;
+				z-index: 1;
+			}
+			
+			.withdraw div p {
+				font-size: 12px;
+				margin: 20px auto;
+			}
+						
+			.withdraw div p:nth-child(1){
+				font-size: 32px;
+				margin: 40px auto;				
+			}
+			
+			.withdraw div input {
+				position: absolute;
+				top: 5px;
+				left: 5px;
+			}
+			.withdraw div a {
+				position: absolute;
+				top: 25px;
+				left: 5px;
+				font-size:12px ;
+			}
+			
+			button{
+				display: block;
+				width: 90%;
+				height: 50px;
+				font-size: 16px;
+				color: #0e7b9a;
+				background-color: #fff;
+				border: 1px solid #0e7b9a;
+				border-radius: 4px;
+				margin: 50px auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="air">提现</div>
+		<div class="withdraw">
+			<div class="withdraw_left">
+				<p>100.99</p>
+				<p>手续费：23.99</p>
+				<p>提现开始时间:2017-6-9 12:00:00</p>
+				<p>提现结束时间:2017-6-9 12:00:00</p>
+				<input type="radio" name="pay" id="wechat" value="wechat" />
+				<a>微信</a>
+			</div>
+			<div class="withdraw_right">
+				<p>1234.99</p>
+				<p>手续费：23.99</p>
+				<p>提现开始时间:2017-6-9 12:00:00</p>
+				<p>提现结束时间:2017-6-9 12:00:00</p>
+				<a>微信</a>
+				<input type="radio" name="pay" id="alipay" value="alipay" />
+			</div>
+		</div>
+		<button>提现</button>
+
+	</body>
+	<script type="text/javascript">
+		$('.withdraw div').click(function(){
+			if($(this).index()==0){
+				$(this).siblings('.withdraw_right').css({
+					'left':'80%'
+				});
+			}else if($(this).index()==1){
+				$(this).css({
+					'left':'20%'
+				});
+			}
+		})
+		$('button').click(function() {
+			if($('input[name="pay"]:checked').val()=="wechat") {
+//				if($ {wepayAmount} - $ {wepayAuxiliary} >= 1) {
+//					var url = $ {wepayUrl};
+//					var payWay = $('input[name="wechat"]:checked').val();
+//					withdraw(url, payWay);
+//				}
+				alert('选中微信')
+			} else if($('input[name="pay"]:checked').val()=="alipay") {
+//				if($ {alipayAmount} - $ {alipayAuxiliary} >= 1) {
+//					var url = $ {alipayUrl};
+//					var payWay = $('input[name="alipay"]:checked').val();
+//					withdraw(url, payWay);
+//				}
+				alert('选中支付宝')
+			}else{
+				alert("请确认是否选择且可提取金额不低于1元！")
+			}
+
+		})
+
+		function withdraw(url, payWay) {
+			$.ajax({
+				type: "post",
+				contentType: "application/json;charset=utf-8;",
+				url: url,
+				data: JSON.stringify({}),
+				async: false,
+				success: function(data) {
+					console.log(deta);
+					alert(JSON.stringify(data));
+					alert(data.errorMessage);
+				},
+				error: function(xhr, textStatus, errMsg) {
+					console.log(textStatus);
+					console.log(errMsg);
+					alert("异常");
+					$('.submit').attr('disabled', false);
+
+				}
+			});
+		}
+	</script>
+
+</html>

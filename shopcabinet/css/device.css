@@ -1,0 +1,307 @@
+/*柜列表*/
+
+.title {
+	width: 100%;
+	line-height: 40px;
+	text-align: center;
+}
+
+.title span {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.width1 {
+	width: 100%;
+}
+
+.width2 {
+	width: 49%;
+}
+
+.width3 {
+	width: 30%;
+}
+
+.width4 {
+	width: 24%;
+}
+
+.width5 {
+	widows: 19%;
+}
+
+.width6 {
+	width: 15%;
+}
+
+.width7 {
+	width: 13%;
+}
+
+.width8 {
+	width: 11%;
+}
+
+.width9 {
+	width: 10%;
+}
+
+
+/*商品列表*/
+
+.row {
+	width: 100%;
+	min-height: 300px;
+	margin: 1rem auto;
+	padding: .4rem;
+	display: none;
+}
+
+.row1 {
+	background-color: rgba(230, 74, 74, .28);
+}
+
+.row2 {
+	background-color: rgba(53, 53, 165, .28);
+}
+
+.row3 {
+	background-color: rgba(255, 255, 0, .28);
+}
+
+.row4 {
+	background-color: rgba(20, 68, 140, 0.28);
+}
+
+.row5 {
+	background-color: rgba(25, 114, 79, 0.28);
+}
+
+.row6 {
+	background-color: rgba(101, 162, 52, 0.3);
+}
+
+.lis {
+	height: 32px;
+	width: 8.4%;
+	margin-left: 2%;
+	text-align: center;
+	float: left;
+}
+
+
+/*支付列表*/
+
+.pay {
+	margin-top: 6rem;
+	text-align: center;
+}
+
+.pay input {
+	display: inline-block;
+	width: 80%;
+	height: 40px;
+	color: #337ab7;
+	font-size: .8rem;
+	border: none;
+}
+
+
+/*模拟购物柜样式*/
+
+input[type='checkbox'] {
+	width: 100%;
+	height: 100%;
+	line-height: 40px;
+	z-index: 1000;
+	opacity: 0;
+}
+
+.checkbox {
+	float: left;
+	background: #ddd;
+	margin: 5px 2% !important;
+	border-radius: 4px;
+	position: relative;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+	font-size: 0
+}
+
+.checkbox:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 0;
+}
+
+.checkbox label {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 0;
+	font-size: 12px;
+	font-weight: 500;
+	border-radius: 4px;
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	color: rgba(255, 255, 255, 0);
+	box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.checkbox label img,
+.checkbox label i {
+	display: none;
+	width: 100%;
+	height: 20px;
+	margin-top: 10px;
+}
+
+.checkbox input[type=checkbox]:checked+label {
+	background: #5f9ea0;
+	opacity: .6;
+	color: rgba(255, 255, 255, 1);
+	line-height: 12px;
+	overflow: hidden;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.checkbox input[type=checkbox]:checked+label img {
+	display: block;
+}
+
+.lis4 {
+	background: url('../img/4.jpg')center no-repeat;
+	background-size: auto 100%;
+}
+
+.lis3 {
+	background: url('../img/3.jpg')center no-repeat;
+	background-size: auto 100%;
+}
+
+.lis2 {
+	background: url('../img/2.jpg')center no-repeat;
+	background-size: auto 100%;
+}
+
+.lis1 {
+	background: url('../img/5.jpg')center no-repeat;
+	background-size: auto 100%;
+}
+
+.showLists {
+	width: 100%;
+	height: auto;
+	display: none;
+}
+
+.showLists ul {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.showLists ul li {
+	margin: 10px auto;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	border-radius: 4px;
+	padding: 4px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.showLists li .img {
+	display: inline-block;
+	border: 1px solid #5fa8a8;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	float: left;
+	margin-top: -1px;
+}
+
+.showLists li div {
+	margin-left: 60px;
+	height: 21px;
+	line-height: 21px;
+}
+
+.showLists .lastLi {
+	margin: 5px auto;
+	background-color: #fff!important;
+	font-size: 16px;
+}
+
+.showLists .lastLi div {
+	float: left;
+	width: 60%;
+	height: 100%;
+	margin: 0;
+	line-height: 50px;
+}
+
+.showLists .lastLi .submit {
+	display: block;
+	width: 40%;
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #5f9ea0;
+	float: left;
+	border-radius: 4px;
+	background-size: 100% 60%;
+	background-color: #fff;
+}
+
+.showLists ul li:nth-child(2n) {
+	background: #f0f0f0;
+}
+
+.showLists ul li:nth-child(2n-1) {
+	background: rgba(95, 168, 168, .4);
+}
+
+.span {
+	font-size: 16px;
+	font-weight: 300;
+	color: red;
+	transition: all 1s 1s;
+}
+
+.showLists li i {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	z-index: 100;
+	display: block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-style: normal;
+	cursor: pointer;
+}
+
+.showLists li i span {
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+.showLists li i span:before {
+	color: red;
+	font-size: 17px;
+}
