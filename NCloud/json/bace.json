@@ -1,0 +1,41 @@
+{
+	"header": {
+		"logo_img":"logo.png",
+		"h1": "云近科技",
+		"nav": [
+			{
+				"href": "index.html",
+				"name": "首页"
+			}, {
+				"href": "information.html",
+				"name": "资讯"
+			}, {
+				"href": "product.html",
+				"name": "产品"
+			}, {
+				"href": "aboutUS.html",
+				"name": "我们"
+			}, {
+				"href": "javascript:0",
+				"name": "后台"
+			}
+		],
+		"nav_extend": [
+			{
+				"href": "http://weixin.gzncloud.com/raffle_manage",
+				"name": "抽奖系统"
+			}, {
+				"href": "http://www.gzncloud.com:8765/web",
+				"name": "客流系统"
+			}, {
+				"href": "http://www.gzncloud.com:8766/led",
+				"name": "体彩信息发布系统"
+			}
+		]
+	},
+	"footer": {
+		"href": "http://www.yanglinled.com",
+		"a": "杨林电子",
+		"p": "版权所有 ©2016 广州云近科技有限公司"
+	}
+}

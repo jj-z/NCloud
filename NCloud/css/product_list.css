@@ -1,0 +1,127 @@
+.product_banner,
+.product_quality,
+.product_intro,
+.product_presentation {
+	width: 100%;
+	height: auto;
+	margin-top: -4px;
+}
+
+.product_intro {
+	height: 250px;
+	padding: 50px 0;
+	text-align: center;
+	box-sizing: border-box;
+	background: url('../img/product_intro.jpg') center no-repeat;
+}
+
+.product_presentation {
+	height: 626px;
+	background-color: #E3E1E4;
+	padding: 50px 0;
+	box-sizing: border-box;
+	font-size: 28px;
+}
+
+.product_intro p {
+	font-size: 28px;
+	height: 150px;
+	line-height: 50px;
+}
+
+.product_banner img,
+.product_quality img {
+	width: 100%;
+	height: 100%;
+}
+
+.product_details {
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.product_details p {
+	font-size: 24px;
+	color: #080808;
+	margin: 40px 0;
+}
+
+.product_details ul,
+.product_presentation ul {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.product_details ul li,
+.product_presentation ul li {
+	float: left;
+	width: 30%;
+	height: auto;
+	margin-bottom: 6px;
+}
+
+.product_presentation ul li {
+	padding: 20px;
+	height: 220px;
+	width: 33%;
+	box-sizing: border-box;
+}
+
+.product_presentation h4,
+.product_presentation p {
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.product_presentation ul li p:nth-child(2) {
+	font-weight: bolder;
+	letter-spacing: 0px;
+}
+
+.product_presentation ul li:nth-child(1),
+.product_presentation ul li:nth-child(2) {
+	width: 49.75%;
+	height: 300px;
+}
+
+.product_details ul li:nth-child(2) {
+	margin: 0 5%;
+}
+
+.product_presentation ul li:nth-child(1) {
+	background-color: #6FB6B8;
+	margin-right: .5%;
+}
+
+.product_presentation ul li:nth-child(2) {
+	background-color: #F0BF34;
+}
+
+.product_presentation ul li:nth-child(3) {
+	background-color: #E25440;
+}
+
+.product_presentation ul li:nth-child(4) {
+	background-color: #97CA51;
+	margin: 0 .5%;
+}
+
+.product_presentation ul li:nth-child(5) {
+	background-color: #969694;
+}
+
+.product_details li img {
+	width: 100%;
+	height: 100%;
+	transition: all .5s linear;
+}
+
+.product_details li:hover img {
+	transform: scale(1.2, 1.2);
+}
+p,h4{
+	color: #f0f0f0;
+}

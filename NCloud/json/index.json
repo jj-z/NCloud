@@ -1,0 +1,82 @@
+{	
+	"bgc_img": "header_index.jpg",
+	"message": {
+		"h3": "资讯",
+		"p": "了解云近动态，关注行业变化",
+		"message_contant": [
+			{  
+				"img": "information0-1.png",
+				"p1":"进入中国20多年 <br /> 为何自助售货机才迎来最好的时代",
+				"p2":"自助售货机并非新鲜事物，但当售卖的内容从普通瓶装饮料变成鲜榨果汁、充电宝...",
+				"a_href": "information_detail.html?information=0"
+			}, {  
+				"img": "information0-1.png",
+				"p1":"进入中国20多年 <br /> 为何自助售货机才迎来最好的时代",
+				"p2":"自助售货机并非新鲜事物，但当售卖的内容从普通瓶装饮料变成鲜榨果汁、充电宝...",
+				"a_href": "information_detail.html?information=0"
+			},{  
+				"img": "information0-1.png",
+				"p1":"进入中国20多年 <br /> 为何自助售货机才迎来最好的时代",
+				"p2":"自助售货机并非新鲜事物，但当售卖的内容从普通瓶装饮料变成鲜榨果汁、充电宝...",
+				"a_href": "information_detail.html?information=0"
+			},{  
+				"img": "information0-1.png",
+				"p1":"进入中国20多年 <br /> 为何自助售货机才迎来最好的时代",
+				"p2":"自助售货机并非新鲜事物，但当售卖的内容从普通瓶装饮料变成鲜榨果汁、充电宝...",
+				"a_href": "information_detail.html?information=0"
+			}
+		]
+	},
+
+	"product": {
+		"h3": "产品",
+		"p": "定位需求，完美诠释",
+		"product_contant": [
+			{	
+				"img": "0.jpg",
+				"h3":"购物柜 <span>自动售货机</span>",
+				"p":"高品质售货机专业厂家，全钢加厚机身，超大舱体设计",
+				"a_href": "product_list.html?product=4"
+			}, {	
+				"img": "1.jpg",
+				"h3":"LED显示屏 <span>尺寸可定制</span>",
+				"p":"LED屏支持无线网络连接.奖池金额可自动从网上抓取",
+				"a_href": "product_list.html?product=1"
+			},{	
+				"img": "2.jpg",
+				"h3":"抽奖机 <span>微信抽奖机</span>",
+				"p":"亚克力面板,亚克力面板，免费喷绘灯片，可反复使用，有后台系统设置奖品参数",
+				"a_href": "product_list.html?product=3"
+			},{	
+				"img": "3.jpg",
+				"h3":"汇率牌 <span>价格牌</span>",
+				"p":"LED电子利率牌、数码管银行利率牌、价格牌、酒店房价表",
+				"a_href": "product_list.html?product=2"
+			},{	
+				"img": "4.jpg",
+				"h3":"油价牌 <span>后套系统&nbsp;&nbsp;设置参数</span>",
+				"p":"专业生产、制作加油站中石油、中石化LED油价牌、今日油价牌和各种广告产品",
+				"a_href": "product_list.html?product=0"
+			}
+		]
+	},
+	"contact": {
+		"h3": "联系我们",
+		"p": "专业对话，竭诚服务",
+		"contact_contant": [
+			{
+				"img": "index_icon_phone.png",
+				"p1": "020-31062327",
+				"p2": "服务时间：9:00-18:00"
+			}, {
+				"img": "index_icon_email.png",
+				"p1": "3460446635@qq.com",
+				"p2": "服务时间：9:00-18:00"
+			}, {
+				"img": "index_icon_qq.png",
+				"p1": "3460446635",
+				"p2": "服务时间：9:00-18:00"
+			}
+		]
+	}
+}

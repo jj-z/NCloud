@@ -1,0 +1,26 @@
+{
+	"img_src":"header_information.jpg",
+	"h3":"资讯",
+	"p":"了解云近动态，关注行业变化",
+	"ul":[
+		{
+			"img_src":"../img/information0-1.png",
+			"p":"自助售货机迎来最好时代"
+		},{
+			"img_src":"../img/information0-1.png",
+			"p":"自助售货机迎来最好时代"
+		},{
+			"img_src":"../img/information0-1.png",
+			"p":"自助售货机迎来最好时代"
+		},{
+			"img_src":"../img/information0-1.png",
+			"p":"自助售货机迎来最好时代"
+		},{
+			"img_src":"../img/information0-1.png",
+			"p":"自助售货机迎来最好时代"
+		},{
+			"img_src":"../img/information0-1.png",
+			"p":"自助售货机迎来最好时代"
+		}
+	]
+}

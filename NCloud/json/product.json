@@ -1,0 +1,23 @@
+{	
+	"bgc_img":"header_product.jpg",
+	"content": [
+		{
+			"img_src": "../img/product_list4.jpg",
+			"a_href":"product_list.html?product=4"
+		},
+		{
+			"img_src": "../img/product_list1.jpg",
+			"a_href":"product_list.html?product=1"
+		},
+		{
+			"img_src": "../img/product_list3.jpg",
+			"a_href":"product_list.html?product=3"
+		}, {
+			"img_src": "../img/product_list2.jpg",
+			"a_href":"product_list.html?product=2"
+		},{
+			"img_src": "../img/product_list0.jpg",
+			"a_href":"product_list.html?product=0"
+		}
+	]
+}
